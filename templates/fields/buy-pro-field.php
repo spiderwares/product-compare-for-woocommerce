@@ -8,11 +8,11 @@ defined( 'ABSPATH' ) || exit; ?>
 <td>
     <div class="pcwc-pro-field">
     <p class="description" style="color: #c9356e">
-            <?php esc_html_e( 'This feature is only available in the Premium Version.', 'product-compare-for-woocommerce' ); ?>
+            <?php esc_html_e( 'This feature is only available in the Premium Version.', 'product-compare-for-woo' ); ?>
             <?php 
             /* Translators: %1$s is the opening anchor tag, and %2$s is the closing anchor tag. */
             echo sprintf(
-                esc_html__( 'Click %1$shere%2$s to buy.', 'product-compare-for-woocommerce' ),
+                esc_html__( 'Click %1$shere%2$s to buy.', 'product-compare-for-woo' ),
                 '<a href="' . esc_url( $field['pro_link'] ) . '" target="_blank">',
                 '</a>'
             ); 

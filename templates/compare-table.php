@@ -38,7 +38,7 @@ defined( 'ABSPATH' ) || exit; ?>
             <tbody>
                 <?php if( isset($pcwc_compare_table['show_price']) && $pcwc_compare_table['show_price'] === 'yes' ): ?>
                     <tr>
-                        <td class="pcwc-info"><i class="fas fa-long-arrow-alt-right"></i><?php esc_html_e( 'Price', 'product-compare-for-woocommerce' ); ?></td>
+                        <td class="pcwc-info"><i class="fas fa-long-arrow-alt-right"></i><?php esc_html_e( 'Price', 'product-compare-for-woo' ); ?></td>
                         <?php foreach ($products as $product) : ?>
                             <td><?php echo wp_kses_post($product['price']); ?></td>
                         <?php endforeach; ?>
@@ -47,7 +47,7 @@ defined( 'ABSPATH' ) || exit; ?>
 
                 <?php if( isset($pcwc_compare_table['show_rating'] ) && $pcwc_compare_table['show_rating'] === 'yes' ): ?>
                     <tr>
-                        <td class="pcwc-info"><i class="fas fa-long-arrow-alt-right"></i><?php esc_html_e( 'Rating', 'product-compare-for-woocommerce' ); ?></td>
+                        <td class="pcwc-info"><i class="fas fa-long-arrow-alt-right"></i><?php esc_html_e( 'Rating', 'product-compare-for-woo' ); ?></td>
                         <?php foreach ($products as $product) : ?>
                             <td class="pcwc-rate"><?php echo wp_kses_post($product['rating']); ?></td>
                         <?php endforeach; ?>
@@ -56,7 +56,7 @@ defined( 'ABSPATH' ) || exit; ?>
 
                 <?php if( isset($pcwc_compare_table['show_description'] ) && $pcwc_compare_table['show_description'] === 'yes' ): ?>
                     <tr>
-                        <td class="pcwc-info"><i class="fas fa-long-arrow-alt-right"></i><?php esc_html_e( 'Description', 'product-compare-for-woocommerce' ); ?></td>
+                        <td class="pcwc-info"><i class="fas fa-long-arrow-alt-right"></i><?php esc_html_e( 'Description', 'product-compare-for-woo' ); ?></td>
                         <?php foreach ($products as $product) : ?>
                             <td><p class="pcwc-description"><?php echo esc_html($product['description']); ?></p></td>
                         <?php endforeach; ?>
@@ -66,7 +66,7 @@ defined( 'ABSPATH' ) || exit; ?>
 
                 <?php if( isset($pcwc_compare_table['show_sku'] ) && $pcwc_compare_table['show_sku'] === 'yes' ): ?>
                     <tr>
-                        <td class="pcwc-info"><i class="fas fa-long-arrow-alt-right"></i><?php esc_html_e( 'SKU', 'product-compare-for-woocommerce' ); ?></td>
+                        <td class="pcwc-info"><i class="fas fa-long-arrow-alt-right"></i><?php esc_html_e( 'SKU', 'product-compare-for-woo' ); ?></td>
                         <?php foreach ($products as $product) : ?>
                             <td><?php echo esc_html($product['sku']); ?></td>
                         <?php endforeach; ?>
@@ -76,7 +76,7 @@ defined( 'ABSPATH' ) || exit; ?>
 
                 <?php if( isset($pcwc_compare_table['show_availability'] ) && $pcwc_compare_table['show_availability'] === 'yes' ): ?>
                     <tr>
-                        <td class="pcwc-info"><i class="fas fa-long-arrow-alt-right"></i><?php esc_html_e( 'Availability', 'product-compare-for-woocommerce' ); ?></td>
+                        <td class="pcwc-info"><i class="fas fa-long-arrow-alt-right"></i><?php esc_html_e( 'Availability', 'product-compare-for-woo' ); ?></td>
                         <?php foreach ($products as $product) : ?>
                             <td><?php echo esc_html($product['availability']); ?></td>
                         <?php endforeach; ?>
@@ -86,7 +86,7 @@ defined( 'ABSPATH' ) || exit; ?>
 
                 <?php if( isset($pcwc_compare_table['show_weight'] ) && $pcwc_compare_table['show_weight'] === 'yes' ): ?>
                     <tr>
-                        <td class="pcwc-info"><i class="fas fa-long-arrow-alt-right"></i><?php esc_html_e( 'Weight', 'product-compare-for-woocommerce' ); ?></td>
+                        <td class="pcwc-info"><i class="fas fa-long-arrow-alt-right"></i><?php esc_html_e( 'Weight', 'product-compare-for-woo' ); ?></td>
                         <?php foreach ($products as $product) : ?>
                             <td><?php echo esc_html($product['weight']); ?></td>
                         <?php endforeach; ?>
@@ -96,7 +96,7 @@ defined( 'ABSPATH' ) || exit; ?>
 
                 <?php if( isset($pcwc_compare_table['show_dimensions'] ) && $pcwc_compare_table['show_dimensions'] === 'yes' ): ?>
                     <tr>
-                        <td class="pcwc-info"><i class="fas fa-long-arrow-alt-right"></i><?php esc_html_e( 'Dimensions', 'product-compare-for-woocommerce' ); ?></td>
+                        <td class="pcwc-info"><i class="fas fa-long-arrow-alt-right"></i><?php esc_html_e( 'Dimensions', 'product-compare-for-woo' ); ?></td>
                         <?php foreach ($products as $product) : ?>
                             <td><?php echo esc_html($product['dimensions']); ?></td>
                         <?php endforeach; ?>
@@ -126,7 +126,7 @@ defined( 'ABSPATH' ) || exit; ?>
 
                 <?php if( isset($pcwc_compare_table['show_add_to_cart'] ) && $pcwc_compare_table['show_add_to_cart'] === 'yes' ): ?>
                     <tr>
-                        <td class="pcwc-info"><i class="fas fa-long-arrow-alt-right"></i><?php esc_html_e( 'Add To Cart', 'product-compare-for-woocommerce' ); ?></td>
+                        <td class="pcwc-info"><i class="fas fa-long-arrow-alt-right"></i><?php esc_html_e( 'Add To Cart', 'product-compare-for-woo' ); ?></td>
                         <?php foreach ($products as $product) : ?>
                             <td  class="pcwc-compare-add-to-cart"><?php echo wp_kses_post( $product['add_to_cart'] ); ?></td>
                         <?php endforeach; ?>

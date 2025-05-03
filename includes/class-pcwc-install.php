@@ -46,8 +46,8 @@ if ( ! class_exists( 'PCWC_install' ) ) :
                 'settings' => sprintf(
                     '<a href="%s" aria-label="%s">%s</a>',
                     admin_url( 'admin.php?page=product_compare' ),
-                    esc_attr__( 'Product Compare Settings', 'product-compare-for-woocommerce' ),
-                    esc_html__( 'Settings', 'product-compare-for-woocommerce' )
+                    esc_attr__( 'Product Compare Settings', 'product-compare-for-woo' ),
+                    esc_html__( 'Settings', 'product-compare-for-woo' )
                 ),
             );
             return array_merge( $action_links, $links );

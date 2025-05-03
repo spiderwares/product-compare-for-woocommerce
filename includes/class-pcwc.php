@@ -62,7 +62,7 @@ if ( ! class_exists( 'PCWC' ) ) :
         public function woocommerce_missing_notice() {
             ?>
             <div class="notice notice-error">
-                <p><?php esc_html_e( 'Product Compare For WooCommerce requires WooCommerce plugin to be installed and active.', 'product-compare-for-woocommerce' ); ?></p>
+                <p><?php esc_html_e( 'Product Compare For WooCommerce requires WooCommerce plugin to be installed and active.', 'product-compare-for-woo' ); ?></p>
             </div>
             <?php
         }
@@ -73,7 +73,7 @@ if ( ! class_exists( 'PCWC' ) ) :
         public function essential_kit_active_notice() {
             ?>
             <div class="notice notice-error">
-                <p><?php esc_html_e( 'Product Compare For WooCommerce plugin is already included in Essential Kit For WooCommerce plugin. Please deactivate the Product Compare plugin to avoid conflicts.', 'product-compare-for-woocommerce' ); ?></p>
+                <p><?php esc_html_e( 'Product Compare For WooCommerce plugin is already included in Essential Kit For WooCommerce plugin. Please deactivate the Product Compare plugin to avoid conflicts.', 'product-compare-for-woo' ); ?></p>
             </div>
             <?php
         }

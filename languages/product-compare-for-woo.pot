@@ -1,0 +1,532 @@
+# Copyright (C) 2025 jthemesstudio
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Compare For Woo 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/product-compare-for-woo\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-03T04:08:16+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: product-compare-for-woo\n"
+
+#. Plugin Name of the plugin
+#: D:\wamp64\www\wordpress\wp-content\plugins\product-compare-for-woo\product-compare-for-woo.php
+msgid "Product Compare For Woo"
+msgstr ""
+
+#. Description of the plugin
+#: D:\wamp64\www\wordpress\wp-content\plugins\product-compare-for-woo\product-compare-for-woo.php
+msgid "Allow your customers to compare multiple products in your WooCommerce store. Easily display product features side-by-side to help users make better purchase decisions."
+msgstr ""
+
+#. Author of the plugin
+#: D:\wamp64\www\wordpress\wp-content\plugins\product-compare-for-woo\product-compare-for-woo.php
+msgid "jthemesstudio"
+msgstr ""
+
+#. Author URI of the plugin
+#: D:\wamp64\www\wordpress\wp-content\plugins\product-compare-for-woo\product-compare-for-woo.php
+msgid "https://jthemes.com/"
+msgstr ""
+
+#: includes/admin/dashboard/about.php:15
+msgid "Product Compare For WooCommerce"
+msgstr ""
+
+#: includes/admin/dashboard/about.php:25
+msgid "Thank you for choosing our plugin! If you’re happy with its performance, we’d be grateful if you could give us a five-star %s rating. Your support helps us improve and deliver even better features."
+msgstr ""
+
+#: includes/admin/dashboard/about.php:31
+msgid "Reviews"
+msgstr ""
+
+#: includes/admin/dashboard/about.php:32
+msgid "Changelog"
+msgstr ""
+
+#: includes/admin/dashboard/about.php:33
+msgid "Discussion"
+msgstr ""
+
+#: includes/admin/dashboard/class-product_compare-dashboard.php:79
+msgid "Product Compare"
+msgstr ""
+
+#: includes/admin/dashboard/class-product_compare-dashboard.php:80
+#: includes/admin/settings/views/product-compare-menu.php:16
+msgid "General"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:23
+msgid "Enable Product Compare"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:27
+msgid "Enable Product Compare For WooCommerce."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:31
+msgid "Compare Button Text"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:34
+msgid "Compare Product"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:37
+msgid "Button Remove Text"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:40
+#: templates/fields/repeater-field.php:17
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:43
+msgid "Open Automatically Lightbox"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:52
+msgid "Single Page Setting"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:57
+msgid "Display Position On Single Page"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:62
+#: includes/admin/settings/views/admin-settings.php:106
+msgid "Disable Button/Icon"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:63
+#: includes/admin/settings/views/admin-settings.php:107
+msgid "Over The Image"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:64
+msgid "Top of Product Page"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:65
+msgid "Before Product Title"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:66
+msgid "After Product Title"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:67
+msgid "After Short Description"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:68
+msgid "Before Quantity Input Field"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:69
+msgid "After Quantity Input Field"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:70
+msgid "Before Add to Cart Button"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:71
+msgid "After Add to Cart Button"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:72
+msgid "After Product Meta Information"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:75
+msgid "Choose how Button/Icon Position on single page."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:78
+msgid "Icon Position in Single Page"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:83
+#: includes/admin/settings/views/admin-settings.php:135
+msgid "Top Left"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:84
+#: includes/admin/settings/views/admin-settings.php:136
+msgid "Top Right"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:85
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:86
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:90
+msgid "Choose the position of icons on the single product page."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:96
+msgid "Shop / Archive Page Setting"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:101
+msgid "Display Position On Shop Page"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:108
+msgid "After Featured Image/Before Title"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:109
+msgid "After Title"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:110
+msgid "Before Add to Cart"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:111
+msgid "After Add to Cart"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:114
+msgid "Choose how Button/Icon Position on single and archive page."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:117
+msgid "Icon Display Type"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:122
+msgid "Fixed"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:123
+msgid "On Hover"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:127
+msgid "Choose how icons should appear on product images."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:130
+msgid "Icon Position in Shop"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:140
+msgid "Choose the position of icons in product loops (shop, category pages)."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:162
+msgid "Table Title"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:165
+msgid "Product Comparison"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:168
+msgid "Show Image"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:175
+msgid "Show Title"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:182
+msgid "Show Price"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:189
+msgid "Show Rating"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:196
+msgid "Show Description"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:203
+msgid "Show SKU"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:210
+msgid "Show Availability"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:217
+msgid "Show Weight"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:224
+msgid "Show Dimensions"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:231
+msgid "Show Add to Cart"
+msgstr ""
+
+#. Translators: %s is replaced with the attribute label.
+#: includes/admin/settings/views/admin-settings.php:246
+msgid "Show %s"
+msgstr ""
+
+#. Translators: %s is replaced with the attribute label.
+#: includes/admin/settings/views/admin-settings.php:251
+msgid "Enable or disable the attribute %s in the compare table."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:258
+msgid "Add Product Meta"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:261
+#: includes/admin/settings/views/admin-settings.php:327
+#: includes/admin/settings/views/admin-settings.php:353
+#: includes/admin/settings/views/admin-settings.php:377
+#: includes/admin/settings/views/admin-settings.php:386
+#: includes/admin/settings/views/admin-settings.php:395
+#: includes/admin/settings/views/admin-settings.php:404
+#: includes/admin/settings/views/admin-settings.php:413
+msgid "Buy Pro"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:262
+msgid "Get the Pro version to enable the Add Product Meta."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:278
+msgid "Compare Button/Icon Background Color"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:282
+msgid "Select the background color for the Compare button/icon."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:285
+msgid "Compare Button/Icon Text Color"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:289
+msgid "Select the text color for the Compare button/icon."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:292
+msgid "Compare Button/Icon Hover Background Color"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:296
+msgid "Select the background color for the Compare button/Icon on hover."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:299
+msgid "Compare Button/Icon Hover Text Color"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:303
+msgid "Select the text color for the Compare button/icon on hover."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:308
+msgid "Product Compare Style"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:313
+msgid "Style 1"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:314
+msgid "Buy Pro For Style 2"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:315
+msgid "Buy Pro For Style 3"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:316
+msgid "Buy Pro For Style 4"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:317
+msgid "Buy Pro For Style 5"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:318
+msgid "Buy Pro For Style 6"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:324
+msgid "Comparison Table Layout"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:328
+msgid "Get the Pro version to enable the Comparison Table Layout feature."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:332
+msgid "Add To Cart Button Background Color"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:336
+msgid "Choose a color for the Add to Cart button."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:341
+msgid "Add To Cart Button Text Color"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:345
+msgid "Choose a text color for the Add to Cart button."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:350
+msgid "Enable More Style option"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:354
+msgid "Get the Pro version to enable the Enable More Style option."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:374
+msgid "Hide Similarities"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:378
+msgid "Get the Pro version to enable the Hide Similarities feature."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:383
+msgid "Highlight Differences"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:387
+msgid "Get the Pro version to enable the Highlight Differences feature."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:392
+msgid "Related Product Compare"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:396
+msgid "Get the Pro version to enable the Related Product Compare feature."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:401
+msgid "Shareable Comparison Table URL"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:405
+msgid "Get the Pro version to enable the Shareable Comparison Table URL feature."
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:410
+msgid "Enable Sticky Bar of Product Comparison"
+msgstr ""
+
+#: includes/admin/settings/views/admin-settings.php:414
+msgid "Get the Pro version to enable the Enable Sticky Bar of Product Comparison feature."
+msgstr ""
+
+#: includes/admin/settings/views/product-compare-menu.php:23
+msgid "Compare Table"
+msgstr ""
+
+#: includes/admin/settings/views/product-compare-menu.php:30
+msgid "Style"
+msgstr ""
+
+#: includes/admin/settings/views/product-compare-menu.php:39
+msgid "Premium Features"
+msgstr ""
+
+#: includes/class-pcwc-install.php:49
+msgid "Product Compare Settings"
+msgstr ""
+
+#: includes/class-pcwc-install.php:50
+msgid "Settings"
+msgstr ""
+
+#: includes/class-pcwc.php:65
+msgid "Product Compare For WooCommerce requires WooCommerce plugin to be installed and active."
+msgstr ""
+
+#: includes/class-pcwc.php:76
+msgid "Product Compare For WooCommerce plugin is already included in Essential Kit For WooCommerce plugin. Please deactivate the Product Compare plugin to avoid conflicts."
+msgstr ""
+
+#: includes/public/class-pcwc-general.php:140
+msgid "Compare"
+msgstr ""
+
+#: includes/public/class-pcwc-general.php:142
+msgid "Added to compare"
+msgstr ""
+
+#: templates/compare-table.php:41
+msgid "Price"
+msgstr ""
+
+#: templates/compare-table.php:50
+msgid "Rating"
+msgstr ""
+
+#: templates/compare-table.php:59
+msgid "Description"
+msgstr ""
+
+#: templates/compare-table.php:69
+msgid "SKU"
+msgstr ""
+
+#: templates/compare-table.php:79
+msgid "Availability"
+msgstr ""
+
+#: templates/compare-table.php:89
+msgid "Weight"
+msgstr ""
+
+#: templates/compare-table.php:99
+msgid "Dimensions"
+msgstr ""
+
+#: templates/compare-table.php:129
+msgid "Add To Cart"
+msgstr ""
+
+#: templates/fields/buy-pro-field.php:11
+msgid "This feature is only available in the Premium Version."
+msgstr ""
+
+#: templates/fields/buy-pro-field.php:15
+msgid "Click %1$shere%2$s to buy."
+msgstr ""
+
+#: templates/fields/repeater-field.php:14
+#: templates/fields/repeater-field.php:23
+msgid "Meta Label"
+msgstr ""
+
+#: templates/fields/repeater-field.php:15
+#: templates/fields/repeater-field.php:24
+msgid "Meta Key"
+msgstr ""
+
+#: templates/fields/repeater-field.php:28
+msgid "The \"Add Meta on Compare Table\" field enables the addition of custom meta labels and keys to be displayed in the product comparison table."
+msgstr ""
+
+#: templates/fields/repeater-field.php:29
+msgid "Add More"
+msgstr ""

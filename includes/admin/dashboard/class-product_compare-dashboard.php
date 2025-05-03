@@ -76,8 +76,8 @@ if ( ! class_exists( 'Product_Compare_Dashboard' ) ) {
 			// Add a submenu page under the main JThemes menu.
 			add_submenu_page( 
                 'product_compare',
-                esc_html__( 'Product Compare', 'product-compare-for-woocommerce' ), 
-                esc_html__( 'General', 'product-compare-for-woocommerce' ), 
+                esc_html__( 'Product Compare', 'product-compare-for-woo' ), 
+                esc_html__( 'General', 'product-compare-for-woo' ), 
                 'manage_options', 
                 'product_compare', 
             );

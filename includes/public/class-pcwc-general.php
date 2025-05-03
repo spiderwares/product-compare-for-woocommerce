@@ -137,9 +137,9 @@ if ( ! class_exists( 'PCWC_Genral' ) ) :
         public function product_compare_buttons() {
             global $product;
             $product_id         = $product->get_id();
-            $compare_text       = isset( $this->compare_general['compare_btn_text'] ) ? $this->compare_general['compare_btn_text'] : esc_html__( 'Compare', 'product-compare-for-woocommerce' );
+            $compare_text       = isset( $this->compare_general['compare_btn_text'] ) ? $this->compare_general['compare_btn_text'] : esc_html__( 'Compare', 'product-compare-for-woo' );
             $compare_products   = isset( $_COOKIE['pcwc_compare_products'] ) ? json_decode( sanitize_text_field( wp_unslash( $_COOKIE['pcwc_compare_products'] ) ), true ) : []; 
-            $compare_text       = in_array( $product_id, $compare_products ) ? esc_html__( 'Added to compare', 'product-compare-for-woocommerce' ) : $compare_text;
+            $compare_text       = in_array( $product_id, $compare_products ) ? esc_html__( 'Added to compare', 'product-compare-for-woo' ) : $compare_text;
             $loader_img         = esc_url( admin_url( 'images/spinner.gif' ) );
             $button_class       = 'pcwc-compare-button ' . esc_attr( $this->theme_button_class );
         

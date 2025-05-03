@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Product Compare For WooCommerce
+ * Plugin Name:       Product Compare For Woo
  * Description:       Allow your customers to compare multiple products in your WooCommerce store. Easily display product features side-by-side to help users make better purchase decisions.
  * Version:           1.0.0
  * Requires at least: 5.2
@@ -10,9 +10,9 @@
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Requires Plugins:  woocommerce
- * Text Domain:       product-compare-for-woocommerce
+ * Text Domain:       product-compare-for-woo
  *
- * @package Product Compare For WooCommerce
+ * @package Product Compare For Woo
  */
 
 defined( 'ABSPATH' ) || exit;
