@@ -62,24 +62,33 @@ if ( ! class_exists( 'Product_Compare_Dashboard' ) ) {
 		 * Add JThemes menu and submenu to the WordPress admin menu.
 		 */
 		public function admin_menu() {
-			// Add the main menu page.
+
 			add_menu_page(
-				'Product Compare',
-				'Product Compare',
+				'JThemes',
+				'JThemes',
 				'manage_options',
-				'product_compare',
-				[ $this, 'admin_menu_content' ], 
-				PCWC_URL . '/assets/img/pcwc.svg', 
+				'jthemes',
+				[ $this, 'dashboard_callback' ], 
+				'data:image/svg+xml;base64,' . base64_encode( file_get_contents( PCWC_PATH . '/assets/img/jthemes.svg' ) ),
 				26
 			);
 
 			// Add a submenu page under the main JThemes menu.
 			add_submenu_page( 
-                'product_compare',
-                esc_html__( 'Product Compare', 'product-compare-for-woo' ), 
-                esc_html__( 'General', 'product-compare-for-woo' ), 
+                'jthemes',
+                esc_html__( 'JThemes General', 'size-chart-for-woocommerce' ), 
+                esc_html__( 'About', 'size-chart-for-woocommerce' ), 
+                'manage_options', 
+                'jthemes', 
+            );
+
+			add_submenu_page( 
+                'jthemes', 
+                esc_html__( 'Product Compare', 'size-chart-for-woocommerce' ), 
+                esc_html__( 'Product Compare', 'size-chart-for-woocommerce' ), 
                 'manage_options', 
                 'product_compare', 
+                [ $this, 'admin_menu_content' ] 
             );
 		}
 
@@ -89,7 +98,7 @@ if ( ! class_exists( 'Product_Compare_Dashboard' ) ) {
 		public function dashboard_callback() {
 			$active_tab = isset( $_GET['tab'] ) ? sanitize_key( $_GET['tab'] ) : 'general';
 			// Include the about page view file.
-			require_once PCWC_PATH . 'includes/admin/dashboard/views/about.php';
+			require_once PCWC_PATH . 'includes/admin/dashboard/about.php';
 		}
 
 		/**

@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name:       Product Compare For Woo
- * Description:       Allow your customers to compare multiple products in your WooCommerce store. Easily display product features side-by-side to help users make better purchase decisions.
+ * Plugin Name:       Product Compare For WooCommerce
+ * Description:       Allow customers to compare multiple WooCommerce products side-by-side by price, features, ratings, and more. Help shoppers make smarter buying decisions with a clean, customizable comparison table that improves user experience and conversions.
  * Version:           1.0.0
  * Requires at least: 5.2
  * Requires PHP:      7.4
@@ -53,12 +53,8 @@ if ( ! defined( 'PCWC_DISCUSSION' ) ) :
     define( 'PCWC_DISCUSSION', 'https://jthemes.com/' ); // Define the plugin directory URL.
 endif;
 
-if ( ! defined( 'PCWC_UPGRADE_URL' ) ) :
-    define( 'PCWC_UPGRADE_URL', 'https://jthemes.com/' ); // Define the upgrade URL.
-endif;
-
 if ( ! defined( 'PCWC_PRO_VERSION_URL' ) ) :
-    define( 'PCWC_PRO_VERSION_URL', 'https://jthemes.com/' ); // Define the Pro Version URL.
+    define( 'PCWC_PRO_VERSION_URL', 'https://codecanyon.net/item/product-compare-for-woocommerce/57861255' ); // Define the Pro Version URL.
 endif;
 
 if ( ! class_exists( 'PCWC', false ) ) :
